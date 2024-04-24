@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Manager</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <header class="flex navbartop">
+        <nav>
+            <ul class="flex navlist" >
+                <li class="flex navlist" ><img src="JSS logo.png" height="100px"></li>
+                <li class="flex navlist">About </li>
+                <li class="flex navlist">Wishlist </li>
+                
+            </ul>
+            <p id="headingTop">Library Management</p>
+            
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <th> Website</th>
+            <th> Username</th>
+            <th> Password</th>
+            <th> Delete</th>
+         </tr>
+         <tr>
+            <td> AG</td>
+            <td>ashwathgupta </td>
+            <td> ******</td>
+            <td> </td>
+         </tr>
+        
+
+
+
+    </table>
+    <form action ="/submit" method="post">
+        <br>
+        <label for="website" name="website" >Book name: </label>
+
+        <input type="text" id="website" placeholder="Enter book name">
+        <br><br>
+        <label for="Username" name="username" >Book id : </label>
+
+        <input type="text" id="username" placeholder="Enter Book id">
+        
+        <label for="Password"   name="password" requied>
+            <br><br>
+            USN:
+            
+            <input type="text" name="password" id="password" type="password" placeholder="Enter USN">
+            <br><br>
+            <label for="returnDate"   name="returnDate" requied>
+              
+                Return date:
+                
+                <input type="date" name="returnDate" id="returnDate" type="text" placeholder="enter return date">
+                <br><br>
+
+            <!-- <label for="Gender" requied >
+                Gender: 
+            </label>
+             -->
+            <!-- <input name="gender" id="gender" type="radio" id="male" value="Male"> Male
+            <input name="gender" id="gender" type="radio" id="Female"value="Female" > Female -->
+            <br><br>
+            <button class="btn" type="button" value="Submit">Submit
+
+            </button>
+          
+        
+    </form>
+    
+    
+    
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.flex{
+   display:flex;
+}
+.navbartop{
+   background-color:bisque;
+}
+.navlist{
+   padding: 10px;
+   margin-right: 10px;
+   
+}
+#headingTop{
+   text-align: center;
+   text-decoration: dotted;
+   padding-left:672px;
+   font-size: x-large;
+   font-weight: bolder;
+  
+}
+table {
+    border:solid 1px black;
+   margin: auto;
+   margin-top: 20%;
+
+    
+}
+.btn{
+   color: #077923;
+   background-color: #9f8d8d;
+   padding: 7px 7px;
+   cursor: pointer;
+   
+}
